@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: silent-scan-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: VIRUSTOTAL_API_KEY
+        sync: false

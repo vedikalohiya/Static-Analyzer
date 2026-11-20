@@ -1,0 +1,9 @@
+Flask
+flask-cors
+requests
+python-dotenv
+gunicorn
+pefile
+boto3
+aws-wsgi
+yara-python
